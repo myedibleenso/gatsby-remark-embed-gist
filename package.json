@@ -1,18 +1,18 @@
 {
   "license": "MIT",
   "version": "1.2.1",
-  "name": "gatsby-remark-embed-gist",
-  "description": "Gatsby remark gists preprocessor",
+  "name": "@justsml/gatsby-remark-embed-gist",
+  "description": "Fork of Gatsby remark gists preprocessor",
   "author": {
-    "name": "Patricio Trevino",
-    "email": "patricio@weirdpattern.com"
+    "name": "Dan Levy",
+    "email": "dan@danlevy.net"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/weirdpattern/gatsby-remark-embed-gist"
+    "url": "https://github.com/justsml/gatsby-remark-embed-gist"
   },
   "bugs": {
-    "url": "https://github.com/weirdpattern/gatsby-remark-embed-gist/issues"
+    "url": "https://github.com/justsml/gatsby-remark-embed-gist/issues"
   },
   "main": "index.js",
   "keywords": [

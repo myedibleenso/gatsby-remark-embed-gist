@@ -169,11 +169,11 @@ export default async ({ markdownAST }, options = {}) => {
     const hasHighlights = query.highlights.length > 0;
 
     if (hasHighlights || hasLines) {
-      if (truncate} {
-        html = html.replace(/\bfile-[^\s]*-L/g, 'L');
-        html = html.replace(/blob-code blob-code-inner ?/g, 'b-c ');
+      if (truncate) {
+        html = html.replace(/\bfile-[^\s]*-L/g, "L");
+        html = html.replace(/blob-code blob-code-inner ?/g, "b-c ");
         html = html.replace(/ data-line-number="/g, ' line-num="');
-        html = html.replace(/ class="blob-num [^\s]*-line-number"/g, '');
+        html = html.replace(/ class="blob-num [^\s]*-line-number"/g, "");
       }
       const $ = cheerio.load(html);
       const file = query.file
@@ -182,7 +182,7 @@ export default async ({ markdownAST }, options = {}) => {
             .replace(/[^a-zA-Z0-9_]+/g, "-")
             .toLowerCase()
         : "";
-      const selectorPrefix = truncate ? `#LC` : `#file-${file}-LC`
+      const selectorPrefix = truncate ? `#LC` : `#file-${file}-LC`;
 
       // highlight the specify lines, if any
       if (hasHighlights) {
