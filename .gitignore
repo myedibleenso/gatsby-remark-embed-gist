@@ -78,3 +78,4 @@ coverage
 #########
 /index.js
 /gatsby-ssr.js
+/truncate-gist.js

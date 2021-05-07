@@ -4,7 +4,7 @@ import cheerio from "cheerio";
 import parse from "parse-numeric-range";
 import fetch from "node-fetch";
 import visit from "async-unist-util-visit";
-import truncateGist from "./truncate-gist";
+import truncateGist from "./lib/truncate-gist.js";
 
 // default base url
 const baseUrl = "https://gist.github.com";
