@@ -1,5 +1,6 @@
 **/*
 !gatsby-ssr.js
+!truncate-gist.js
 !index.js
 !package.json
 !README.md
