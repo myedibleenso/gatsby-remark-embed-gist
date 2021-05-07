@@ -46,6 +46,7 @@ export function onRenderBody({ setHeadComponents }, options = {}) {
               <link href={options.gistCssUrlAddress} rel="stylesheet" />
             </noscript>,
             <script
+              key={"script-" + key}
               dangerouslySetInnerHTML={{
                 __html: `
                   var link = document.querySelector("#${key}");

@@ -1,6 +1,6 @@
 module.exports = {
   moduleFileExtensions: ["js", "jsx"],
-  testMatch: ["**/specs/**/*[.-][Ss]pec{,s}.{j}s"],
+  testMatch: ["**/specs/**/*specs.{js,jsx,ts,tsx}"],
   rootDir: ".",
   verbose: false,
   resetMocks: true,

@@ -1,4 +1,4 @@
-const prettier = require("./prettier.config");
+var prettier = require("./prettier.config");
 
 module.exports = {
   parser: "babel-eslint",

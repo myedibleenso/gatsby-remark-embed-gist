@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with #file and ?querystring 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with #file and ?querystring 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -20,19 +20,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -48,7 +47,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -64,7 +63,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       
       <tr>
@@ -73,7 +72,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -107,7 +106,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -115,7 +114,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with #file and ?querystring just hightlights 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with #file and ?querystring just hightlights 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -135,19 +134,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -163,7 +161,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -179,7 +177,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -191,7 +189,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -248,7 +246,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -256,7 +254,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with #file and ?querystring just lines 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with #file and ?querystring just lines 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -276,19 +274,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -304,7 +301,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -320,7 +317,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       
       <tr>
@@ -329,7 +326,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -363,7 +360,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -371,7 +368,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -391,9 +388,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -419,9 +415,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -538,9 +533,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -567,7 +561,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -587,9 +581,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -615,9 +608,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -734,9 +726,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -763,7 +754,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -783,9 +774,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -812,7 +802,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with mixed lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with mixed lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -832,19 +822,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -860,7 +849,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -876,7 +865,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -888,7 +877,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -945,7 +934,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -953,7 +942,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with mixed lines highlighted and selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with mixed lines highlighted and selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -973,19 +962,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -1001,7 +989,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -1017,7 +1005,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       
       <tr>
@@ -1026,7 +1014,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -1060,7 +1048,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -1068,7 +1056,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with muplie lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with muplie lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1088,19 +1076,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -1116,7 +1103,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -1132,7 +1119,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -1144,7 +1131,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -1201,7 +1188,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -1209,7 +1196,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with muplie lines highlighted and multiple lines selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with muplie lines highlighted and multiple lines selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1229,19 +1216,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -1288,7 +1274,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -1296,7 +1282,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with range of lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with range of lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1316,19 +1302,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -1344,7 +1329,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -1360,7 +1345,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -1372,7 +1357,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -1429,7 +1414,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -1437,7 +1422,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with range of lines highlighted and range of lines selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with range of lines highlighted and range of lines selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1457,16 +1442,15 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -1482,7 +1466,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -1516,7 +1500,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -1524,7 +1508,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with default username and file in query with single line highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with default username and file in query with single line highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1544,19 +1528,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -1572,7 +1555,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -1588,7 +1571,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -1600,7 +1583,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -1657,7 +1640,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -1665,7 +1648,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1685,9 +1668,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -1713,9 +1695,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -1832,9 +1813,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -1861,7 +1841,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1881,9 +1861,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -1910,7 +1889,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1930,9 +1909,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -1959,7 +1937,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with . 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -1979,9 +1957,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-inputrc\\" class=\\"file \\">
+  <div id=\\"file-inputrc\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -2052,7 +2029,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . a single line highlighted and multiple line selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with . a single line highlighted and multiple line selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2072,12 +2049,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-inputrc\\" class=\\"file \\">
+  <div id=\\"file-inputrc\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody>
       
       
@@ -2111,7 +2087,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2119,7 +2095,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . and a single line highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with . and a single line highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2139,12 +2115,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-inputrc\\" class=\\"file \\">
+  <div id=\\"file-inputrc\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-inputrc-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-inputrc-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">vi-insert</span></td>
@@ -2191,7 +2166,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-inputrc-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
-        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&quot;</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">&quot;</span></span></td>
+        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">\\"</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">\\"</span></span></td>
       </tr>
 </tbody></table>
 
@@ -2205,7 +2180,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2213,7 +2188,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with . and multiple line highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with . and multiple line highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2233,12 +2208,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-inputrc\\" class=\\"file \\">
+  <div id=\\"file-inputrc\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-readline-config  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-inputrc-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-inputrc-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-k\\">set</span> <span class=\\"pl-v\\">keymap</span> <span class=\\"pl-s\\">vi-insert</span></td>
@@ -2285,7 +2259,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-inputrc-L12\\" class=\\"blob-num js-line-number\\" data-line-number=\\"12\\"></td>
-        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&quot;</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">&quot;</span></span></td>
+        <td id=\\"file-inputrc-LC12\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c1\\">Control</span>-<span class=\\"pl-c1\\">v</span><span class=\\"pl-k\\">:</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">\\"</span><span class=\\"pl-cce\\">\\\\C</span>-xv<span class=\\"pl-cce\\">\\\\e</span><span class=\\"pl-pds\\">\\"</span></span></td>
       </tr>
 </tbody></table>
 
@@ -2299,7 +2273,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68/raw/13d3e3938406f46aec46831b3c438eefa6b53eeb/.inputrc\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/0831fd65d3f8ee6ab11a23dff65abc68#file-inputrc\\">.inputrc</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2307,7 +2281,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with mixed lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with mixed lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2327,19 +2301,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -2355,7 +2328,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -2371,7 +2344,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -2383,7 +2356,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -2440,7 +2413,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2448,7 +2421,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with mixed lines highlighted and mixed lines selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with mixed lines highlighted and mixed lines selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2468,19 +2441,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -2496,7 +2468,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       
       
@@ -2527,7 +2499,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2535,7 +2507,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with multiple lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with multiple lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2555,19 +2527,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -2583,7 +2554,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -2599,7 +2570,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -2611,7 +2582,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -2668,7 +2639,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2676,7 +2647,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with multiple lines highlighted and multiple lines selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with multiple lines highlighted and multiple lines selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2696,19 +2667,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -2721,7 +2691,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -2755,7 +2725,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2763,7 +2733,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with range of lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with range of lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2783,19 +2753,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -2811,7 +2780,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -2827,7 +2796,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -2839,7 +2808,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -2896,7 +2865,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2904,7 +2873,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with range of lines highlighted and selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with range of lines highlighted and selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -2924,19 +2893,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -2952,7 +2920,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       
       
@@ -2983,7 +2951,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -2991,7 +2959,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with single line highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with single line highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3011,19 +2979,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -3039,7 +3006,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -3055,7 +3022,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -3067,7 +3034,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -3124,7 +3091,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -3132,7 +3099,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist generates an embedded gist with username and file in query with single line highlighted and single line selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases generates an embedded gist with username and file in query with single line highlighted and single line selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3152,12 +3119,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3196,7 +3162,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -3204,7 +3170,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3224,9 +3190,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file \\">
+  <div id=\\"file-2016-08-31-stream-redirection\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -3252,9 +3217,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -3371,9 +3335,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -3400,7 +3363,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3420,9 +3383,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -3449,7 +3411,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3469,9 +3431,8 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-syntax-text\\" class=\\"file \\">
+  <div id=\\"file-syntax-text\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-text  \\">
       
 <table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
@@ -3498,7 +3459,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with mixed lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with mixed lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3518,19 +3479,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -3546,7 +3506,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -3562,7 +3522,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -3574,7 +3534,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -3631,7 +3591,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -3639,7 +3599,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with mixed lines highlighted and selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with mixed lines highlighted and selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3659,19 +3619,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -3687,14 +3646,14 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       
       
       
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -3706,7 +3665,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       
       
@@ -3730,7 +3689,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -3738,7 +3697,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with multiple lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with multiple lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3758,19 +3717,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -3786,7 +3744,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -3802,7 +3760,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -3814,7 +3772,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -3871,7 +3829,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -3879,7 +3837,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with multiple lines highlighted and multiple lines selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with multiple lines highlighted and multiple lines selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3899,12 +3857,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
@@ -3918,14 +3875,14 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       
       
       
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -3955,7 +3912,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -3963,7 +3920,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with range of lines highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with range of lines highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -3983,19 +3940,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -4011,7 +3967,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -4027,7 +3983,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -4039,7 +3995,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -4096,7 +4052,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -4104,7 +4060,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with range of lines highlighted and range of lines selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with range of lines highlighted and range of lines selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -4124,12 +4080,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody>
       
       
@@ -4143,7 +4098,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -4159,7 +4114,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line highlighted\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -4171,7 +4126,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -4202,7 +4157,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -4210,7 +4165,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with single line highlighted 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with single line highlighted 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -4230,19 +4185,18 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody><tr>
         <td id=\\"file-example-sh-L1\\" class=\\"blob-num js-line-number\\" data-line-number=\\"1\\"></td>
         <td id=\\"file-example-sh-LC1\\" class=\\"blob-code blob-code-inner js-file-line\\"><span class=\\"pl-c\\"><span class=\\"pl-c\\">#</span> no redirection</span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L2\\" class=\\"blob-num js-line-number\\" data-line-number=\\"2\\"></td>
-        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span></td>
+        <td id=\\"file-example-sh-LC2\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span></td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L3\\" class=\\"blob-num js-line-number\\" data-line-number=\\"3\\"></td>
@@ -4258,7 +4212,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L6\\" class=\\"blob-num js-line-number\\" data-line-number=\\"6\\"></td>
-        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
+        <td id=\\"file-example-sh-LC6\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">2&gt;</span> /dev/null</td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L7\\" class=\\"blob-num js-line-number\\" data-line-number=\\"7\\"></td>
@@ -4274,7 +4228,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L10\\" class=\\"blob-num js-line-number\\" data-line-number=\\"10\\"></td>
-        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC10\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">1&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L11\\" class=\\"blob-num js-line-number\\" data-line-number=\\"11\\"></td>
@@ -4286,7 +4240,7 @@ Object {
       </tr>
       <tr>
         <td id=\\"file-example-sh-L13\\" class=\\"blob-num js-line-number\\" data-line-number=\\"13\\"></td>
-        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">&apos;</span>hello<span class=\\"pl-pds\\">&apos;</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
+        <td id=\\"file-example-sh-LC13\\" class=\\"blob-code blob-code-inner js-file-line\\">$ <span class=\\"pl-c1\\">echo</span> <span class=\\"pl-s\\"><span class=\\"pl-pds\\">'</span>hello<span class=\\"pl-pds\\">'</span></span> <span class=\\"pl-k\\">&amp;</span><span class=\\"pl-k\\">&gt;</span> /dev/null </td>
       </tr>
       <tr>
         <td id=\\"file-example-sh-L14\\" class=\\"blob-num js-line-number\\" data-line-number=\\"14\\"></td>
@@ -4343,7 +4297,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>
@@ -4351,7 +4305,7 @@ Object {
 }
 `;
 
-exports[`gatsby-remark-embedded-gist inline username overrides configuration with file in query with single line highlighted and single line selected 1`] = `
+exports[`gatsby-remark-embedded-gist core use cases inline username overrides configuration with file in query with single line highlighted and single line selected 1`] = `
 Object {
   "position": Position {
     "end": Object {
@@ -4371,12 +4325,11 @@ Object {
     <div class=\\"gist-file\\">
       <div class=\\"gist-data\\">
         <div class=\\"js-gist-file-update-container js-task-list-container file-box\\">
-  <div id=\\"file-example-sh\\" class=\\"file \\">
+  <div id=\\"file-example-sh\\" class=\\"file my-2\\">
     
-
   <div itemprop=\\"text\\" class=\\"Box-body p-0 blob-wrapper data type-shell  \\">
       
-<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip>
+<table class=\\"highlight tab-size js-file-line-container\\" data-tab-size=\\"8\\" data-paste-markdown-skip=\\"\\">
       <tbody>
       
       
@@ -4415,7 +4368,7 @@ Object {
       <div class=\\"gist-meta\\">
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974/raw/83e7ad9d06525f3becfafb2f32ffa3122e8e846e/example.sh\\" style=\\"float:right\\">view raw</a>
         <a href=\\"https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974#file-example-sh\\">example.sh</a>
-        hosted with &#x2764; by <a href=\\"https://github.com\\">GitHub</a>
+        hosted with ❤ by <a href=\\"https://github.com\\">GitHub</a>
       </div>
     </div>
 </div>

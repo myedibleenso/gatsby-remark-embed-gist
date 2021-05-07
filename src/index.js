@@ -4,6 +4,7 @@ import cheerio from "cheerio";
 import parse from "parse-numeric-range";
 import fetch from "node-fetch";
 import visit from "async-unist-util-visit";
+import truncateGist from "./truncate-gist";
 
 // default base url
 const baseUrl = "https://gist.github.com";
@@ -11,6 +12,11 @@ const baseUrl = "https://gist.github.com";
 /**
  * @typedef {object} PluginOptions
  * @property {string} username the default gist user.
+ * @property {string} gistCssUrlAddress a string that represents the github default gist css url.
+ * @property {boolean} truncate  reduce output size 15-35%
+ * @property {boolean} includeDefaultCss flag indicating whether the github default gist css should be included
+ * @property {boolean} gistDefaultCssInclude flag indicating whether the github default gist css should be included
+ * @property {boolean} gistCssPreload flag indicating whether the github default gist css should be preloaded
  * @property {boolean} includeDefaultCss a flag indicating the default css should be included
  */
 
@@ -164,17 +170,11 @@ export default async ({ markdownAST }, options = {}) => {
     const content = await response.json();
 
     let html = content.div;
-    const truncate = Boolean(query.truncate) || options.truncate;
+    const truncate = Boolean(query.truncate) || Boolean(options.truncate);
     const hasLines = query.lines.length > 0;
     const hasHighlights = query.highlights.length > 0;
 
     if (hasHighlights || hasLines) {
-      if (truncate) {
-        html = html.replace(/\bfile-[^\s]*-L/g, "L");
-        html = html.replace(/blob-code blob-code-inner ?/g, "b-c ");
-        html = html.replace(/ data-line-number="/g, ' line-num="');
-        html = html.replace(/ class="blob-num [^\s]*-line-number"/g, "");
-      }
       const $ = cheerio.load(html);
       const file = query.file
         ? query.file
@@ -182,7 +182,7 @@ export default async ({ markdownAST }, options = {}) => {
             .replace(/[^a-zA-Z0-9_]+/g, "-")
             .toLowerCase()
         : "";
-      const selectorPrefix = truncate ? `#LC` : `#file-${file}-LC`;
+      const selectorPrefix = truncate ? "#LC" : `#file-${file}-LC`;
 
       // highlight the specify lines, if any
       if (hasHighlights) {
@@ -201,7 +201,11 @@ export default async ({ markdownAST }, options = {}) => {
         });
       }
 
-      html = $.html();
+      html = $.html({ decodeEntities: false, normalizeWhitespace: true });
+    }
+
+    if (truncate) {
+      html = truncateGist(html);
     }
 
     node = Object.assign(node, {

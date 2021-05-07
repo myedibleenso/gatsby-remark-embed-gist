@@ -1,8 +1,8 @@
-# gatsby-remark-embed-gist
+# @justsml/gatsby-remark-embed-gist
 
-[![NPM badge](https://img.shields.io/npm/v/gatsby-remark-embed-gist.svg?style=flat-square)](https://www.npmjs.com/package/gatsby-remark-embed-gist)
-[![Travis badge](https://img.shields.io/travis/weirdpattern/gatsby-remark-embed-gist.svg?branch=master&style=flat-square)](https://travis-ci.org/weirdpattern/gatsby-remark-embed-gist)
-[![codecov](https://codecov.io/gh/weirdpattern/gatsby-remark-embed-gist/branch/master/graph/badge.svg)](https://codecov.io/gh/weirdpattern/gatsby-remark-embed-gist)
+[![NPM badge](https://img.shields.io/npm/v/@justsml/gatsby-remark-embed-gist.svg?style=flat-square)](https://www.npmjs.com/package/@justsml/gatsby-remark-embed-gist)
+[![Travis badge](https://img.shields.io/travis/justsml/gatsby-remark-embed-gist.svg?branch=master&style=flat-square)](https://travis-ci.org/justsml/gatsby-remark-embed-gist)
+[![codecov](https://codecov.io/gh/justsml/gatsby-remark-embed-gist/branch/master/graph/badge.svg)](https://codecov.io/gh/justsml/gatsby-remark-embed-gist)
 
 This plugin allows content authors to embed [Gist](https://gist.github.com/)
 snippets.
@@ -40,7 +40,7 @@ Highlights and lines can be defined using:
 
 ## Installation
 
-`yarn add gatsby-remark-embed-gist`
+`yarn add @justsml/gatsby-remark-embed-gist`
 
 ## Usage
 
@@ -51,12 +51,14 @@ Highlights and lines can be defined using:
   options: {
     plugins: [
       {
-        resolve: "gatsby-remark-embed-gist",
+        resolve: "@justsml/gatsby-remark-embed-gist",
         options: {
-          // Optional:
-
           // the github handler whose gists are to be accessed
           username: "<string>",
+
+          // Optional:
+          // set to true to reduce output size 15-35%
+          truncate: true || false, 
 
           // a flag indicating whether the github default gist css should be included or not
           // default: true
@@ -145,7 +147,7 @@ Into this...
 
 The order of the plugins only matters when used in conjunction with
 `gatsby-remark-prismjs`, because this plugin transforms the inline code blocks,
-so add `gatsby-remark-embed-gist` somewhere above this plugin.
+so add `@justsml/gatsby-remark-embed-gist` somewhere above this plugin.
 
 ## License
 
