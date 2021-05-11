@@ -546,5 +546,16 @@ describe("gatsby-remark-embedded-gist", () => {
       const html = content.value;
       expect(html).toMatch(/b-c-inner/g);
     });
+    it("Parses @justsml test", async () => {
+      const markdownAST = remark.parse(
+        "`gist:justsml/fca7cd72ec1ebc07d994eac13a665ddf`"
+      );
+
+      const processed = await plugin({ markdownAST }, { truncate: true });
+      expect(processed).toBeTruthy();
+      const content = getNodeContent(markdownAST);
+      const html = content.value;
+      expect(html).toMatch(/b-c-inner/g);
+    });
   });
 });

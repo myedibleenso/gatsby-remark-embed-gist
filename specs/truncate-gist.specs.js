@@ -1,4 +1,4 @@
-import truncateGist from "../lib/truncate-gist";
+import { truncateGist } from "../src/index";
 
 describe("option: truncate can reduce html bulk", () => {
   it("can truncate <td> line num fragments", () => {
