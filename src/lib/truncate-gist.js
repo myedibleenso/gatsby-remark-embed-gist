@@ -1,4 +1,10 @@
-module.exports = function truncateGist(html, testing = false) {
+/**
+ * Shrinks size of HTML returned by the GitHub/Gist API.
+ * @param {string} html input HTML
+ * @param {boolean} [testing=false] only for tests, omits attribution comment.
+ * @returns {string} the mangled/truncated HTML.
+ */
+export default function truncateGist(html, testing = false) {
   // WARNING: This doesn't differentiate between gist's table markup and your content inside it!
   html = html.replace(/\bfile-[^\s]*-L/gi, "L");
   html = html.replace(/\bblob-code\b/g, "b-c");
@@ -13,4 +19,4 @@ module.exports = function truncateGist(html, testing = false) {
     html +=
       "\n\n<!-- Gist HTML Mangled & Compressed by @justsml/gatsby-remark-embed-gist -->";
   return html;
-};
+}

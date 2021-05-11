@@ -1,7 +1,7 @@
 {
   "license": "MIT",
-  "version": "1.3.1",
-  "name": "@justsml/gatsby-remark-embed-gist",
+  "version": "1.3.2",
+  "name": "gatsby-remark-embed-gist-slim",
   "description": "Fork of Gatsby remark gists preprocessor",
   "author": {
     "name": "Dan Levy",
