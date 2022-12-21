@@ -56,7 +56,11 @@ Highlights and lines can be defined using:
           // the github handler whose gists are to be accessed
           username: "<string>",
 
-          // Optional:
+          // ### Optional settings:
+
+          // Useful if you are running into rate limit issues - DO NOT COMMIT DIRECTLY IN CODE, USE ENVIRONMENT VARIABLES INSTEAD!
+          secretToken: process.env.GITHUB_TOKEN,
+
           // set to true to reduce output size 15-35%
           truncate: true || false, 
 
@@ -152,3 +156,5 @@ so add `@justsml/gatsby-remark-embed-gist` somewhere above this plugin.
 ## License
 
 MIT, by Patricio Trevino
+
+Updated by Dan Levy, @justsml

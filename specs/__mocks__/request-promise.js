@@ -1,4 +1,4 @@
-export default url => {
+export default (url) => {
   if (
     url ===
     "https://gist.github.com/weirdpattern/ce54fdb1e5621b5966e146026995b974.json"

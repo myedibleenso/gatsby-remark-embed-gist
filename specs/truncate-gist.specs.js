@@ -4,7 +4,7 @@ describe("option: truncate can reduce html bulk", () => {
   it("can truncate <td> line num fragments", () => {
     const input =
       '<td id="file-example-sh-L420" class="blob-num js-line-number" data-line-number="3"></td>';
-    const expected = '<td id="L420" class="b-n js-ln" data-ln=3></td>';
+    const expected = '<td id="L420" class="b-n js-ln" data-ln="3"></td>';
     expect(truncateGist(input, true)).toBe(expected);
   });
   it("can truncate <td> code fragments", () => {
