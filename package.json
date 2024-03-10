@@ -1,7 +1,7 @@
 {
   "license": "MIT",
-  "version": "1.4.0",
-  "name": "@justsml/gatsby-remark-embed-gist",
+  "version": "1.4.1",
+  "name": "@myedibleenso/gatsby-remark-embed-gist",
   "description": "Fork of Gatsby remark gists preprocessor",
   "private": false,
   "author": {
