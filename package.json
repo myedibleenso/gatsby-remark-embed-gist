@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/justsml/gatsby-remark-embed-gist/issues"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "keywords": [
     "gatsby",
     "gatsbyjs",
